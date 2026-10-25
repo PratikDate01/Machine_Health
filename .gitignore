@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files with secrets
+.env
+
+# SQLite local databases (keep data folder structure)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite3
+!data/raw/
+!data/processed/
+
+# Streamlit config / cache
+.streamlit/secrets.toml
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,23 @@
+# Python Dependencies for AI Machine Health Monitor
+# Core ML, Data Science, and Dashboard
+streamlit>=1.35.0,<=1.66.1
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.5.0
+joblib>=1.4.0
+
+# Visualizations
+plotly>=5.22.0
+matplotlib>=3.8.0
+
+# HTTP API & Microservices
+fastapi>=0.111.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-multipart>=0.0.9
+
+# Environment & Testing
+python-dotenv>=1.0.1
+pytest>=8.2.0
+httpx>=0.27.0
